@@ -33,7 +33,7 @@ public class MainService {
     public Flux<CityDTO> getCities() {
         String request = """
             {
-              "apiKey": "879f72dd0d06961104925fd3231dc2c8",
+              "apiKey": apiKey,
               "modelName": "Address",
               "calledMethod": "getCities",
               "methodProperties": {}
